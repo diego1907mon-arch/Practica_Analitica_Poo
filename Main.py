@@ -11,6 +11,7 @@ while True:
  print("2. Circulo")
  print("3. Cuadrado")
  print("4. Rectangulo")
+ print("5. Salir")
 
 
  opcion = input("Que figura desea usar (1-4): ")
@@ -38,3 +39,12 @@ while True:
         altura = float(input("Ingrese la altura del rectángulo: "))
         figura = Rectangulo(base, altura)
         print("El area del triangulo es :", figura.area())
+
+ elif opcion == "5":
+      print("Salio del progrma")
+
+ else:
+    print("Opción no válida. Por favor, seleccione un número del 1 al 4.")
+
+    
+
