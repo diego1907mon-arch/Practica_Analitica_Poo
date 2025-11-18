@@ -1,4 +1,5 @@
-class Circulo:
+from Figura_Geometrica import FiguraGeometrica
+class Circulo(FiguraGeometrica):
     def __init__(self,radio):
         self.radio=radio
 
@@ -8,4 +9,3 @@ class Circulo:
     
 
 
-    

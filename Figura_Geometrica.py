@@ -1,6 +1,6 @@
 class FiguraGeometrica:
     def __init__(self,nombre):
-        self.nombre=nombre
+        self.nombre =  nombre
 
 
     def area(self):

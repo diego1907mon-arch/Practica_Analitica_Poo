@@ -1,4 +1,5 @@
-class Rectangulo:
+from Figura_Geometrica import FiguraGeometrica
+class Rectangulo(FiguraGeometrica):
     def __init__(self,ancho,alto
                  ):
         self.ancho=ancho
