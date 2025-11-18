@@ -32,3 +32,9 @@ while True:
         lado = float(input("Ingrese el lado del cuadrado: "))
         figura = Cuadrado(lado)
         print("El area del triangulo es :", figura.area())
+ 
+ elif opcion == "4":
+        base = float(input("Ingrese la base del rectángulo: "))
+        altura = float(input("Ingrese la altura del rectángulo: "))
+        figura = Rectangulo(base, altura)
+        print("El area del triangulo es :", figura.area())
