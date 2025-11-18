@@ -27,3 +27,8 @@ while True:
         radio = float(input("Ingrese el radio del círculo: "))
         figura = Circulo(radio) 
         print("El area del circulo es :", figura.area())
+
+ elif opcion == "3":
+        lado = float(input("Ingrese el lado del cuadrado: "))
+        figura = Cuadrado(lado)
+        print("El area del triangulo es :", figura.area())
