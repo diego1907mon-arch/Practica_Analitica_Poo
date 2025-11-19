@@ -6,6 +6,7 @@ from Cuadrado import Cuadrado
 from Rectangulo import Rectangulo
 from Cilindro import Cilindro
 from Paralelogramo import Paralelogramo
+from Rombo import Rombo
 
 
 while True:
@@ -57,6 +58,13 @@ while True:
         altura = float(input("Ingrese la altura del paralelogramo: "))
         figura = Paralelogramo(base, altura)
         print("El área del paralelogramo es:", figura.area())
+
+ elif opcion == "7":
+         d_mayor = float(input("Ingrese la diagonal mayor del rombo: "))
+         d_menor = float(input("Ingrese la diagonal menor del rombo: "))
+         figura = Rombo(d_mayor, d_menor)
+         print("El área del rombo es:", figura.area())
+
 
  
  
