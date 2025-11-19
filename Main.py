@@ -7,7 +7,7 @@ from Rectangulo import Rectangulo
 from Cilindro import Cilindro
 from Paralelogramo import Paralelogramo
 from Rombo import Rombo
-
+from Trapecio import Trapecio
 
 while True:
  print("------ MENÚ -------------")
@@ -21,7 +21,7 @@ while True:
  print("8.Trapecio")
  print("9. Salir")
 
- opcion = input("Que figura desea usar (1-8): ")
+ opcion = input("Que figura desea usar (1-9): ")
  print("Usted seleccionó la opción:",opcion)
 
  if opcion == "1":
@@ -64,6 +64,14 @@ while True:
          d_menor = float(input("Ingrese la diagonal menor del rombo: "))
          figura = Rombo(d_mayor, d_menor)
          print("El área del rombo es:", figura.area())
+
+ elif opcion == "8":
+         b_mayor = float(input("Ingrese la base mayor del trapecio: "))
+         b_menor = float(input("Ingrese la base menor del trapecio: "))
+         altura = float(input("Ingrese la altura del trapecio: "))
+         figura = Trapecio(b_mayor, b_menor, altura)
+         print("El área del trapecio es:", figura.area())
+
 
 
  
