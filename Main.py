@@ -5,6 +5,7 @@ from Circulo import Circulo
 from Cuadrado import Cuadrado
 from Rectangulo import Rectangulo
 from Cilindro import Cilindro
+from Paralelogramo import Paralelogramo
 
 
 while True:
@@ -15,7 +16,7 @@ while True:
  print("4. Rectangulo")
  print("5. Cilindro")
  print("6. Paralelogramo")
- print("7,rombo")
+ print("7. Rombo")
  print("8.Trapecio")
  print("9. Salir")
 
@@ -50,6 +51,13 @@ while True:
         altura = float(input("Ingrese la altura del cilindro: "))
         figura = Cilindro(radio, altura)
         print("El área total del cilindro es:", figura.area())
+
+ elif opcion == "6":
+        base = float(input("Ingrese la base del paralelogramo: "))
+        altura = float(input("Ingrese la altura del paralelogramo: "))
+        figura = Paralelogramo(base, altura)
+        print("El área del paralelogramo es:", figura.area())
+
  
  
  else:
